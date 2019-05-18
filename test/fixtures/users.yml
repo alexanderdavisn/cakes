@@ -1,0 +1,5 @@
+
+sasuke:
+  name: Sasuke Uchiha
+  email: thesauce@konoha.com
+  password_digest: <%= User.digest('password') %>
